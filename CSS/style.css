@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+	 font-family: "Lato", sans-serif;font-size: 16px;color: #666666;margin: 0
+}
+header{
+	width: 100%;height: 60px;background-color: #C5C5C5;border-bottom: 1px solid darkred
+}
+.menu{
+	padding-top: 18px
+}
+.menu ul{
+	margin: 0;padding: 0;list-style: none;display: flex
+}
+.menu ul li a{
+	padding: 10px 20px;text-decoration: none;font-size: 17px;color: #2F2F2F;border-radius: 20px
+}
+.menu ul li a:hover{
+	background-color: darkred;color: white
+}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:red;
+      text-decoration: none; }
+
+#slide.owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide.owl-dots .owl-dot span {
+  width: 12px;
+	height: 12px}
+#slide .owl-dots .owl-dot span {
+      width: 10px;
+      height: 10px;
+      margin: 5px 7px;
+      background:#FC0;
+      display: block;
+      -webkit-backface-visibility: visible;
+      transition: opacity 200ms ease;
+      border-radius: 30px; }
+ #slide .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+ background: #4DC7A0; }
+		
+main{ width: 100%;min-height: 500px
+}
+aside{width: 30%; padding: 15px;min-height: 400px}
+.content{width: 70%;padding: 15px;min-height: 400px
+}
+.text-do{color: darkred}
+aside ul { margin: 0;padding: 0;list-style: none;display: flex;flex-direction: column}	
+aside ul a{text-decoration: none; padding: 10px;display: block;color: #F0161A}	
+aside ul a:hover{background-color: darkred;color: white}
+aside ul li{
+	border-bottom: 1px solid gray	
+}
+
+.img-100{width: 100%; height: auto}
+.text-center{ text-align: center;}
+footer{
+width:100%;min-height: 300px;background-color: azure
+}
+footer a{ color: #8B8383;text-decoration: none 
+}
+footer a:hover{color: darkred}
+.bg-xanh{background-color: aqua;text-align: center;}
+footer ul{ margin: 0; padding: 0;list-style:none;direction:flex;flex-direction: column}
+footer ul a{padding: 10px;display:block ;color: aliceblue}
